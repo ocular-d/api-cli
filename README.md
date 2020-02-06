@@ -52,7 +52,7 @@ This may change in the future (PRs are welcome).
 docker run -it --rm -v `pwd`/spec:/app/spec -p 8080:8080 testthedocs/api-cli api:preview
 ```
 
-Open your browser and navigate to [http://loclhost:8080](http://loclhost:8080)
+Open your browser and navigate to [http://localhost:8080](http://localhost:8080)
 
 ### Bundle
 
