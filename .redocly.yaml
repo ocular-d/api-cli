@@ -1,0 +1,15 @@
+apiDefinitions:
+# a set of named keys and values of entrypoints to OpenAPI 3 definitions.
+# example
+  onna: openapi.json
+
+lint:
+  rules:
+    no-unused-schemas: off
+    no-$ref-siblings: off
+
+referenceDocs:
+  theme:
+    colors:
+      primary:
+        main: '#18779E'

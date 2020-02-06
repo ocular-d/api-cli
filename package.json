@@ -1,0 +1,17 @@
+{
+  "name": "api-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api:preview": "openapi preview-docs spec/openapi.json",
+    "api:bundle": "redoc-cli bundle spec/openapi.json -o index.html --options.theme.colors.primary.main=#18779E"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@redocly/openapi-cli": "^0.8.3",
+    "redoc-cli": "^0.9.5"
+  }
+}
