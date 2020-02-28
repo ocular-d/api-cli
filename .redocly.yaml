@@ -1,7 +1,7 @@
 apiDefinitions:
 # a set of named keys and values of entrypoints to OpenAPI 3 definitions.
 # example
-  onna: openapi.json
+  openapi: openapi.json
 
 lint:
   rules:
