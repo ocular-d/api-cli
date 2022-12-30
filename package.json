@@ -12,6 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "@redocly/openapi-cli": "^0.8.3",
-    "redoc-cli": "^0.9.5"
+    "redoc-cli": "^0.13.20"
   }
 }
